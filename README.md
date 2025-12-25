@@ -15,12 +15,30 @@ Smart Content Generation
   - Customizable tone and style
   - Real-time content generation
 
-Minimal UI
-  - Simple, clean Streamlit interface
-  - Input fields for prompt, tone, audience, and length
-  - Instant preview of AI-generated content
+Modern UI
+
+Clean and intuitive Streamlit interface
+Responsive design
+Real-time content preview
+Easy export options
 
 # Prerequisites
 
 - Python 3.9 or higher
 - Google Gemini API Key (Get from [Google AI Studio](https://aistudio.google.com)
+
+# Usage
+-Select Content Type
+Choose from LinkedIn Posts, Ad Content, Professional Emails, or Conversation Drafts.
+
+-Fill in Details
+Provide required inputs through the dynamic form.
+
+-Adjust Settings
+Customize tone, creativity level, and preferences using the sidebar.
+
+-Generate Content
+Click “Generate Content” to create AI-powered output.
+
+-Review & Export
+Analyze quality metrics and download the generated content.
