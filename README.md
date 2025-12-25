@@ -28,17 +28,17 @@ Easy export options
 - Google Gemini API Key (Get from [Google AI Studio](https://aistudio.google.com)
 
 # Usage
--Select Content Type
+ - Select Content Type
 Choose from LinkedIn Posts, Ad Content, Professional Emails, or Conversation Drafts.
 
--Fill in Details
+ - Fill in Details
 Provide required inputs through the dynamic form.
 
--Adjust Settings
+ - Adjust Settings
 Customize tone, creativity level, and preferences using the sidebar.
 
--Generate Content
+ - Generate Content
 Click “Generate Content” to create AI-powered output.
 
--Review & Export
+ - Review & Export
 Analyze quality metrics and download the generated content.
