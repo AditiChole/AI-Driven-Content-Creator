@@ -1,6 +1,6 @@
 # AI Content Creator
 
-**AI Content Creator** is a Python-based tool that generates **LinkedIn posts, Ad copy, professional emails, and conversation drafts** using Groq LLaMA-3. It supports multiple content lengths, tones, and automatically generates inline LinkedIn hashtags.
+**AI Content Creator is a Python-based tool that generates LinkedIn posts, Ad copy, professional emails, and conversation drafts using Groq LLaMA-3. It supports multiple content lengths, tones, and languages.**
 
 ---
 
@@ -12,6 +12,10 @@
 * Support for **Ad copy, professional emails, and conversation drafts**
 * Adjustable **content length**: Short, Medium, Long
 * Multiple **tones**: Professional, Casual, Persuasive
+* Multilingual content generation:
+  - Supports English, Hindi, French, Spanish, German, Chinese, Japanese, Arabic, Portuguese, Russian, Italian, Korean, Dutch, Turkish, Indonesian
+  - Hashtags are also generated in the selected language
+  - Dropdown selection in Streamlit for easy language choice
 
 ---
 
@@ -25,6 +29,7 @@ post = generate_content(
     content_type="LinkedIn Post",
     tone="Professional",
     length_value=3  # 1=Short, 2=Medium, 3=Long
+    language = "English"
 )
 
 print(post)
