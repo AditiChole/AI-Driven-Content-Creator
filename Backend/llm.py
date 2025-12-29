@@ -19,17 +19,13 @@ def generate_text(prompt: str, max_tokens: int = 2000) -> str:
     )
     return response.choices[0].message.content
 
-def generate_hashtags(content: str) -> str:
-    """
-    Generates 5-10 relevant hashtags for LinkedIn posts, inline and clean.
-    """
+def generate_hashtags(content, language="English"):
     prompt = f"""
-Generate 5-10 relevant hashtags for this LinkedIn post.
-Output them inline separated by spaces, without numbers or extra commentary.
-
-Post content:
-{content}
-"""
+    Generate 5-10 relevant hashtags for this LinkedIn post.
+    Output them inline separated by spaces, without numbers or extra commentary.
+    Language: {language}
+    Post content:{content}
+    """
     response = client.chat.completions.create(
         model="llama-3.1-8b-instant",
         messages=[{"role": "user", "content": prompt}],
