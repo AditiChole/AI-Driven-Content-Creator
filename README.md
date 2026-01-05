@@ -1,4 +1,4 @@
-# AI Content Creator
+# TextFlow AI - AI Content Creator
 
 **AI Content Creator is a Python-based tool that generates LinkedIn posts, Ad copy, professional emails, and conversation drafts using Groq LLaMA-3. It supports multiple content lengths, tones, and languages.**
 
